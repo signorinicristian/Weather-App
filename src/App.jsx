@@ -63,7 +63,7 @@ function App() {
                       windSpeed={weather.wind.speed}
                       country={weather.sys.country}
                       city={weather.name}
-                  /> : <h1>Please enter a city name!</h1>}
+                  /> : <h1 className="please">Please enter a city name!</h1>}
         </div>
     </div>
     <footer>
